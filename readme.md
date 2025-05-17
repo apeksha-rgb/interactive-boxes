@@ -33,5 +33,5 @@ project/
 
 ## 🖥️ Screenshots
 
-![Screenshot](./InteractiveBoxes/asset/Capture.PNG)
+![Screenshot](./asset/Capture.PNG)
 
