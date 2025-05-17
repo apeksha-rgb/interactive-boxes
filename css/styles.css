@@ -186,5 +186,87 @@ select{
     cursor: pointer;
 }
 
+/* Responsive styling */
+
+@media (max-width: 1024px) {
+  .container-1, .container-2 {
+    width: 80%;
+  }
+
+  .label-box label {
+    font-size: 1.4rem;
+  }
+
+  .popular-chip {
+    font-size: 0.8rem;
+    padding: 8px;
+    width: auto;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .f-container, .t-container {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-1, .container-2 {
+    width: 95%;
+  }
+
+  .container-1 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .labels {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .dropdowns {
+    padding-left: 0;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .charges-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .label-box label {
+    font-size: 1.2rem;
+  }
+
+  .offer-chip, .popular-chip {
+    font-size: 0.7rem;
+    padding: 6px;
+  }
+
+  .new-price, .old-price {
+    font-size: 0.9rem;
+  }
+}
 
 
