@@ -8,8 +8,8 @@ This project is a simple, responsive product selection component designed to rep
 - 🔘 Radio-based unit selection (1, 2, or 3 units)
 - 🏷️ Discount chips like "10% Off", "Most Popular"
 - 🎨 Size and color dropdowns for each unit
-- 🛍️ Interactive UI with default selection
-- 📱 Fully responsive (mobile, tablet, desktop)
+- 🛍️ Default selection
+- 📱 Mobil First Approach
 
 ## 📁 File Structure
 
@@ -22,7 +22,9 @@ project/
 │   └── styles.css
 ├── js/
 │   └── script.js
-└── README.md
+├── asset/
+│   └── Capture.png
+├── README.md
 
 ```
 ## 🛠️ Tech Stack
